@@ -1,0 +1,55 @@
+<html>
+<h1 style="color:white";>AnyCompany Test1</h1>
+
+<body style="background-color:black;">
+  <!-- Add a placeholder for the Twitch embed -->
+  <div id="twitch-embed"></div>
+
+  <!-- Load the Twitch embed script -->
+  <div class="">
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <p>
+    </p>
+
+  </div>
+
+  <div class="">
+
+
+    <h1 style="color:white";>AnyCompany Test2</h1>
+
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "rpascareaz",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com
+        parent: ["http://ec2-3-86-58-157.compute-1.amazonaws.com", "http://ec2-3-86-58-157.compute-1.amazonaws.com:3000", "ec2-3-86-58-157.compute-1.amazonaws.com:3000","http://3.86.58.157:3000/","3.86.58.157:3000/","localhost","ec2-3-86-58-157.compute-1.amazonaws.com","3.86.58.157","localhost:3000"]
+      });
+    </script>
+  </div>
+  <div class="">
+
+  <iframe src="https://player.twitch.tv/?video=804190436&parent&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+  </div>
+
+  <div class="">
+      <h1 style="color:white";>AnyCompany Test3 4K</h1>
+    <!-- <video width="1920" height="1080" controls>
+      <source src="http://d2ir3gcqzh1pjc.cloudfront.net/test.MOV" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video> -->
+    <br></br>
+
+    <video controls>
+      <source src="http://d2ir3gcqzh1pjc.cloudfront.net/My+Movie.mov" type="video/webm" media="all and (max-width:500px)">
+      <source src="myVideo.webm" type="video/webm">
+   </video>
+  </div>
+
+</body>
+
+</html>
